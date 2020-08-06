@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap");
+
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;   
+ 
+ 
+vertical-align: baseline;  
+}
+
+
+/*font-family: 'Playfair Display', serif;
+
+font-family: 'Julius Sans One', sans-serif;
+
+font-family: 'IM Fell DW Pica', serif;*/
+
+
+*{
+    border: 1px solid grey;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% 0 1%;
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3rem;
+    color: gray;
+}
+
+header .navbar nav {
+    margin: 4% 0 2%;
+    padding: 1% 0;
+    width: 100%;
+
+}
+
+header .navbar nav a {
+   padding: 1%  5%;
+   border: 1px solid grey;
+   text-decoration: none;
+   font-family: 'Julius Sans One', sans-serif;
+   font-size: 90%;
+   color: white;
+   background-color: #030303;
+   margin: 0 -.18%;
+
+}
+
+.iwanttotravel {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1% 0;
+}
+
+.iwanttotravel h2 {
+    margin-bottom: 1%;
+    width: 100%;
+    padding: 1.5% 0;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2rem;
+    
+}
+
+.iwanttotravel p {
+    width: 95%;
+    margin: 1% 2%;
+    padding: 0 0 2%;
+    text-align: center;
+    font-family: 'IM Fell DW Pica', serif;
+
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.center {
+    width: 100%;
+}
+.centerimg {
+    background-image: url("ishan-seefromthesky-qE1Y8GQKhEk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 35vh;
+}
+.oow {
+    
+    opacity: 0;
+    text-align: center;
+    margin: -38.5% 1% -7%;
+    padding: 18% 3%;
+    
+}
+
+.oow a {
+   
+    opacity: 0;
+    width: 100%;
+    padding: 17% 44%;
+    margin-left: -1%;
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration: none;
+    font-size: 2rem;
+    color: grey;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.oow:hover {
+   
+    opacity: 94%;
+}
+
+.oow a:hover {
+    
+    opacity: 90%;
+    
+    transition: 2s;
+}
+
+.travel {
+    margin: 8% 0 3%;
+    display: flex;
+}
+
+.imgses {
+    
+}
