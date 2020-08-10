@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap");
+
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;   
+ 
+ 
+vertical-align: baseline;  
+}
+
+
+/*font-family: 'Playfair Display', serif;
+
+font-family: 'Julius Sans One', sans-serif;
+
+font-family: 'IM Fell DW Pica', serif;*/
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% 0 1%;
+    
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 5.8rem;
+    font-weight: bolder;
+    color: gray;
+    
+}
+
+header .navbar nav {
+    margin: 4% 0 2%;
+    padding: 1% 0;
+    width: 100%;
+
+}
+
+header .navbar nav a {
+   padding: 1%  5%;
+   border-left: 1px solid grey;
+   border-right: 1px solid grey;
+   text-decoration: none;
+   font-family: 'Julius Sans One', sans-serif;
+   font-size: 90%;
+   color: white;
+   background-color: #030303;
+   margin: 0 -.18%;
+
+}
+
+header .navbar nav a:hover {
+    background-color: white;
+    color: black;
+    transition: ease 1s;
+}
+
+.iwanttotravel {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1% 0;
+}
+
+.iwanttotravel h2 {
+    margin-bottom: 1%;
+    width: 100%;
+    padding: 1.5% 0;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2rem;
+    
+}
+
+.iwanttotravel p {
+    width: 93%;
+    margin: 1% 3%;
+    padding: 0 0 2%;
+    text-align: center;
+    font-family: 'IM Fell DW Pica', serif;
+
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.centerimg {
+    background-image: url("ishan-seefromthesky-qE1Y8GQKhEk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 35vh;
+    position: relative;
+    display: inline-block;
+}
+.oow {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    padding: 1% 1%;
+    left: 0;
+    right: 0;
+    top: 44%;
+    opacity: 0;
+}
+
+.oow a {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration: none;
+    font-size: 3.4rem;
+    color: white;
+    padding: 15% 10%;
+    opacity: 0;
+}
+
+.oow:hover {
+    opacity: 100%;
+    transition: 1.2s;
+}
+
+.oow a:hover {
+    
+    opacity: 100%;
+    transition: 1.2s;
+}
+
+.travel {
+    margin: 5% 0 2%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.imgses {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img1 {
+    background-image: url("jack-ward-rknrvCrfS1k-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    width: 22%;
+}
+
+.img2 {
+    background-image: url("matthew-henry-Ix1TiS-E17E-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    width: 22%;
+}
+
+.img3 {
+    background-image: url("ramy-kabalan-mpnSlUg0D2I-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    width: 22%;
+}
+
+.img4 {
+    background-image: url("caroline-selfors-r2jpr8MDw0I-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    width: 22%;
+}
+
+.parabottom {
+    width: 16%;
+    padding: 2%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'IM Fell DW Pica', serif;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 5% 0;
+    background-color: black;
+}
+
+footer nav a {
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 2% 1%;
+    color: white;
+    border: 1px solid white;
+}
+
+footer nav a:hover {
+    background-color: white;
+    color: black;
+}
