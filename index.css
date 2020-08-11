@@ -115,7 +115,7 @@ span {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 35vh;
+    height: 62vh;
     position: relative;
     display: inline-block;
 }
@@ -126,12 +126,11 @@ span {
     padding: 1% 1%;
     left: 0;
     right: 0;
-    top: 44%;
+    top: 60%;
     opacity: 0;
 }
 
 .oow a {
-    background-color: transparent;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -155,7 +154,7 @@ span {
 }
 
 .travel {
-    margin: 5% 0 2%;
+    margin: 2% 0;
     display: flex;
     width: 100%;
     align-items: center;
@@ -171,7 +170,7 @@ span {
     background-image: url("jack-ward-rknrvCrfS1k-unsplash.jpg");
     background-position: center;
     background-size: cover;
-    height: 45vh;
+    height: 50vh;
     width: 22%;
 }
 
@@ -179,7 +178,7 @@ span {
     background-image: url("matthew-henry-Ix1TiS-E17E-unsplash.jpg");
     background-position: center;
     background-size: cover;
-    height: 45vh;
+    height: 50vh;
     width: 22%;
 }
 
@@ -187,7 +186,7 @@ span {
     background-image: url("ramy-kabalan-mpnSlUg0D2I-unsplash.jpg");
     background-position: center;
     background-size: cover;
-    height: 45vh;
+    height: 50vh;
     width: 22%;
 }
 
@@ -195,8 +194,17 @@ span {
     background-image: url("caroline-selfors-r2jpr8MDw0I-unsplash.jpg");
     background-position: center;
     background-size: cover;
-    height: 45vh;
+    height: 50vh;
     width: 22%;
+}
+
+.screen-reader {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 .parabottom {
@@ -225,4 +233,134 @@ footer nav a {
 footer nav a:hover {
     background-color: white;
     color: black;
+}
+
+@media(max-width: 800px) {
+    * {
+        margin: 0 auto;
+        font-size: 1.35rem;
+    }
+
+    h1 {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .navbar {
+        width: 40%;
+        margin: 0 auto;
+        padding: 1.5% 8%;
+    }
+    .navbar nav {
+        padding: 1.5% 8%;
+        margin: 1% 0;
+    }
+
+    .navbar nav a {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        line-height: 4;
+        border: 5px solid white;
+        border-radius: 8px;
+    }
+   
+    .iwanttotravel {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .iwanttotravel p {
+        font-size: 1.4rem;
+    }
+    span {
+        font-size: 1.6rem;
+    }
+    .center {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .centerimg {
+        height: 33vh;
+    }
+
+    .oow {
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    .travel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgses {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img1, .img2, .img3, .img4 {
+        width: 45%;
+        margin-bottom: 2%;
+        height: 40vh;
+    }
+
+    .parabottom {
+        width: 80%;
+        margin: 5% auto;
+    }
+}
+
+@media(max-width: 500px) {
+    * {
+        margin: 0 auto;
+        font-size: 1.35rem;
+    }
+
+    h1 {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 4.2rem;
+    }
+    .navbar {
+        width: 45%;
+        margin: 5% auto;
+    }
+    .navbar nav {
+        margin: 1% 0;
+    }
+
+    .navbar nav a {
+        margin: 2%;
+        line-height: 3;
+        border: 3px solid white;
+        border-radius: 5px;
+    }
+   
+    .iwanttotravel {
+        margin: 3% auto;
+    }
+
+    .centerimg {
+        height: 25vh;
+    }
+
+    .imgses {
+        margin-top: 3%;
+    }
+
+    .img1, .img2, .img3, .img4 {
+        height: 25vh;
+    }
+
+    .parabottom {
+        width: 78%;
+    }
+
 }
