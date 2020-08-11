@@ -126,12 +126,11 @@ span {
     padding: 1% 1%;
     left: 0;
     right: 0;
-    top: 44%;
+    top: 60%;
     opacity: 0;
 }
 
 .oow a {
-    background-color: transparent;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -197,6 +196,15 @@ span {
     background-size: cover;
     height: 50vh;
     width: 22%;
+}
+
+.screen-reader {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 .parabottom {
@@ -278,7 +286,12 @@ footer nav a:hover {
     }
 
     .oow {
-        display: none;
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
     }
 
     .travel {
